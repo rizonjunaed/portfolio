@@ -1,0 +1,8 @@
+/* eslint-disable max-len */
+
+const article = {
+  name: 'Myself',
+  content: '<p>MD JUNAED HOSSAIN</p> <p>Date: May9,2021</p> <p>My full name is Md Junaed Hossain. I am from Bangladesh and came to Winnipeg, Manitoba, 3 years ago. Dhaka is the capital city of Bangladesh. It is one of the most populous cities in the world, though I enjoyed growing up there as a child. I like to interact with people and certainly have a lot of friends in my hometown. I loved to spend time with my family too. Most families live together in my country where mothers are mostly housewives, which perhaps I think, helps a child grow as a better human being.</p> <p> From my childhood, I was always amazed to see what people were doing with computers and got interested in things one can do with sensors, such as, motion sensor. I watched lot of youtube videos regarding motion sensors. But never experimented with it hands on. Also, I used to read storybooks and watch fantasy movies. I read the Harry potter storybook and also watched all the films. Even a few months ago I re-watched the Harry Potter movie as I like that movie, especially the 1st episode.</p> <p> After coming to Winnipeg, I thought about which career to pursue for my future. Since computers made me amazed from childhood, I thought about it and found this program at Manitoba Institute of Trade and Technology. It is Software developer program. I always liked the fact that you can do really interesting works and make real-life applications being a software developer and hope to be a good Software Developer in near future. </p>',
+};
+
+export default article;

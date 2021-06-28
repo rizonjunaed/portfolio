@@ -1,11 +1,12 @@
 import React from 'react';
-import './styles.css';
 
-const MainPage = () => (
+const Contact = () => (
   <div>
-    <h1 className="title">Hello there!</h1>
-    <p>The app has run</p>
+    <h1>Hello there!</h1>
+    <p>I hope my blog helped everyone. I will continuously update my blog and help everyone by giving valuable informations. If anyone want to contact me for any tips or suggest me any subject to write about, please contact me here.</p>
+    <h3>Contact INfrormation:</h3>
+    <p>Email: 79720875+rizonjunaed@users.noreply.github.com</p>
   </div>
 );
 
-export default MainPage;
+export default Contact;

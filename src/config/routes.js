@@ -1,7 +1,8 @@
 import HomePage from '../pages/HomePage';
-import AboutMe from '../pages/AboutMe/AboutMe';
+import AboutMe from '../pages/AboutMe';
 import Contact from '../pages/Contact';
-import Blogs from '../pages/Blogs/Blogs';
+import Blogs from '../pages/Blogs';
+import Blog from '../pages/Blog';
 
 const routes = [
   {
@@ -25,7 +26,7 @@ const routes = [
   },
   {
     path: '/blogs/:id',
-    component: Blogs,
+    component: Blog,
   },
 ];
 
