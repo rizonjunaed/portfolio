@@ -10,6 +10,7 @@ const Article = ({ data }) => (
   }
     </h1>
 
+    {/* eslint-disable-next-line react/no-danger */}
     <div className="article-content" dangerouslySetInnerHTML={{ __html: data.content }} />
   </div>
 );
