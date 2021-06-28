@@ -8,19 +8,24 @@ import { Link } from 'react-router-dom';
 const Footer = () => (
   <div className="footer">
     <Grid container justify="space-between">
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Typography component="p" variant="button" className="link" align="center">
-          <Button component={Link} to="./about-me" color="inherit">About Me</Button>
+          <Button component={Link} to="/" color="inherit">Home</Button>
         </Typography>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Typography component="p" variant="button" className="link" align="center">
-          <Button component={Link} to="./contact" color="inherit">Contact</Button>
+          <Button component={Link} to="/about-me" color="inherit">About Me</Button>
         </Typography>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Typography component="p" variant="button" className="link" align="center">
-          <Button component={Link} to="./blogs" color="inherit">Blogs</Button>
+          <Button component={Link} to="/contact" color="inherit">Contact</Button>
+        </Typography>
+      </Grid>
+      <Grid item xs={3}>
+        <Typography component="p" variant="button" className="link" align="center">
+          <Button component={Link} to="/blogs" color="inherit">Blogs</Button>
         </Typography>
       </Grid>
     </Grid>

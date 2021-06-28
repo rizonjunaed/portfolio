@@ -9,7 +9,7 @@ const Blogs = () => (
     <ul>
       {
           Object.keys(data).map((blogPageNumber) => (
-            <li>
+            <li key={blogPageNumber}>
               <h2><Link to={`./blogs/${blogPageNumber}`}>{data[blogPageNumber].name}</Link></h2>
               <p>
                 {data[blogPageNumber].summary}

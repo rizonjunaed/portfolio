@@ -34,13 +34,13 @@ const Navbar = () => {
       <AppBar className={classes.appBar} position="static">
         <Toolbar className={classes.toolBar} variant="dense">
           <Typography variant="h6" className={classes.title}>
-            <Link to="./" className="portfolio-title">
+            <Link to="/" className="portfolio-title">
               Junaed&apos;s Portfolio
             </Link>
           </Typography>
-          <Button component={Link} to="./about-me" color="inherit">About Me</Button>
-          <Button component={Link} to="./contact" color="inherit">Contact</Button>
-          <Button component={Link} to="./blogs" color="inherit">Blogs</Button>
+          <Button component={Link} to="/about-me" color="inherit">About Me</Button>
+          <Button component={Link} to="/contact" color="inherit">Contact</Button>
+          <Button component={Link} to="/blogs" color="inherit">Blogs</Button>
         </Toolbar>
       </AppBar>
     </div>

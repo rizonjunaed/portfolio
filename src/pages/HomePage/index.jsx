@@ -17,7 +17,7 @@ const MainPage = () => (
         {' '}
         <Typography component="span">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <Link to="./blogs">
+          <Link to="/blogs">
             here
           </Link>
         </Typography>
