@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const MainPage = () => (
   <div>
-    <Box mt={6} p={3}>
+    <Box mt={3} p={3}>
       <h1 className="title">Hello There!</h1>
       <p>Welcome to my blog. The world is moving rapidly in IT (Information Technology), Computer etc sector. People all over the world are using internet in almost every aspect of their life. Here, I will try my best to post about everyday computer hacks and strategies. I can be reached to my social platforms for any suggestions of a new blog post.</p>
     </Box>
