@@ -6,11 +6,11 @@ import article6 from './article6';
 import article7 from './article7';
 
 const data = {
-  1: article2,
+  1: article7,
   2: article3,
   3: article4,
-  4: article6,
-  5: article7,
+  4: article2,
+  5: article6,
   6: article5,
 };
 
