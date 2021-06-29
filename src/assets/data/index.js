@@ -9,9 +9,9 @@ const data = {
   1: article2,
   2: article3,
   3: article4,
-  4: article5,
-  5: article6,
-  6: article7,
+  4: article6,
+  5: article7,
+  6: article5,
 };
 
 export default data;
