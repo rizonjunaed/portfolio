@@ -34,6 +34,7 @@ const Navbar = () => {
       <AppBar className={classes.appBar} position="static">
         <Toolbar className={classes.toolBar} variant="dense">
           <Typography variant="h6" className={classes.title}>
+            <img src="/publicAssets/image/Junaed.Logo.png" alt="Touching a sleeping crocodile" width="120" height="120" />
             <Link to="/" className="portfolio-title">
               Junaed&apos;s Portfolio
             </Link>
