@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Junaed's Portfolio using REACT JS
+- Greetings, you can access this small project of mine by going to the hosted link https://dazzling-hawking-885259.netlify.app/
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
